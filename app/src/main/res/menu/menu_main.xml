@@ -2,18 +2,18 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:id="@+id/category"
         android:title="@string/categories"
-        android:showAsAction="always"
+        android:showAsAction="ifRoom"
         />
     <item android:id="@+id/close"
         android:title="@string/user_events"
-        android:showAsAction="always"
+        android:showAsAction="ifRoom"
         />
     <item android:id="@+id/add"
         android:title="@string/settings"
-        android:showAsAction="always"
+        android:showAsAction="ifRoom"
         />
     <item android:id="@+id/delete"
         android:title="@string/exit"
-        android:showAsAction="always"
+        android:showAsAction="ifRoom"
         />
 </menu>
